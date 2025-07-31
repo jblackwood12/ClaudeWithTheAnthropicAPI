@@ -1,122 +1,128 @@
 [
   {
-    "output": "Here is a one-day meal plan for an athlete preparing for marathon race day:\n\n* **Calorie Target:** Approximately 2800 calories\n* **Macronutrient Breakdown:** Protein (105g), Fat (62g), Carbs (490g)\n\n**Meal Plan:**\n\n* **Breakfast (6:00 AM):** White rice porridge (100g dry weight) with banana (120g) and honey (20g). Orange juice (200ml).\n  * Protein: 8g, Fat: 2g, Carbs: 140g\n\n* **Mid-Morning Snack (9:00 AM):** White toast (60g) with jam (25g) and a sports drink (250ml).\n  * Protein: 6g, Fat: 2g, Carbs: 70g\n\n* **Lunch (12:00 PM):** Grilled chicken breast (120g) with white rice (100g dry weight) and steamed carrots (100g, peeled). Coconut water (250ml).\n  * Protein: 40g, Fat: 8g, Carbs: 95g\n\n* **Afternoon Snack (3:00 PM):** Energy bar made with dates and rice crisps (50g) plus banana (120g).\n  * Protein: 4g, Fat: 6g, Carbs: 60g\n\n* **Pre-Race Dinner (6:00 PM):** Baked white fish (130g) with pasta (120g dry weight) in olive oil (15ml) and salt. White dinner roll (40g).\n  * Protein: 42g, Fat: 18g, Carbs: 110g\n\n* **Evening Snack (8:30 PM):** Rice cakes (30g) with honey (15g) and herbal tea.\n  * Protein: 2g, Fat: 1g, Carbs: 30g\n\nThis meal plan emphasizes easily digestible, high-carbohydrate foods while avoiding dairy and high-fiber options that could cause digestive issues on race day. The timing allows for proper digestion before the marathon while maximizing glycogen stores.",
+    "output": "Based on the athlete's information, here's a tailored meal plan:\n\n**Calorie Target:** Approximately 2400 calories\n**Macronutrient Breakdown:** Protein (130g), Fat (75g), Carbs (320g)\n\n**Meal Plan:**\n\n**Breakfast (7:00 AM):** Vegetarian Protein Oatmeal\n- Rolled oats (80g)\n- Chia seeds (15g)\n- Soy milk (240g)\n- Mixed berries (100g)\n- Peanut butter (20g)\n    *Protein: 25g, Fat: 18g, Carbs: 65g\n\n**Mid-Morning Snack (10:00 AM):** Protein-Rich Snack\n- Greek yogurt (non-fat, 170g)\n- Banana (120g)\n- Almonds (15g)\n    *Protein: 20g, Fat: 10g, Carbs: 35g\n\n**Lunch (1:00 PM):** Vegetarian Protein Bowl\n- Tofu, firm (150g)\n- Quinoa (75g dry weight)\n- Mixed vegetables (200g)\n- Olive oil dressing (15g)\n    *Protein: 35g, Fat: 20g, Carbs: 80g\n\n**Afternoon Snack (4:00 PM):** Recovery Smoothie\n- Protein powder (plant-based, 30g)\n- Spinach (50g)\n- Apple (150g)\n- Almond milk (240g)\n    *Protein: 25g, Fat: 8g, Carbs: 40g\n\n**Dinner (7:00 PM):** Lentil and Vegetable Meal\n- Lentils (120g cooked)\n- Sweet potato (150g)\n- Steamed broccoli (200g)\n- Nutritional yeast (10g)\n    *Protein: 25g, Fat: 15g, Carbs: 90g\n\n**Evening Snack (9:00 PM):** Protein Recovery\n- Cottage cheese (low-fat, 100g)\n- Walnuts (15g)\n    *Protein: 15g, Fat: 12g, Carbs: 10g\n\n**Budget-Friendly Considerations:**\n- Uses affordable protein sources like lentils, tofu, and eggs\n- Incorporates seasonal vegetables\n- Utilizes bulk-purchased items like oats and quinoa\n- Minimizes expensive specialty ingredients\n\n**Nutritional Notes:**\n- Meets vegetarian dietary requirements\n- Provides balanced protein for muscle maintenance\n- Offers complex carbohydrates for sustained energy\n- Includes healthy fats for recovery and hormone balance\n\nThis meal plan is specifically designed to support the athlete's muscle maintenance and recovery goals while adhering to vegetarian dietary restrictions and maintaining a budget-friendly approach.",
     "test_case": {
       "prompt_inputs": {
         "height": "175",
-        "weight": "68",
-        "goal": "Marathon race day preparation - need high-carb fuel for optimal performance",
-        "restrictions": "No dairy products, avoid high-fiber foods on race day"
+        "weight": "72",
+        "goal": "muscle maintenance and recovery during training",
+        "restrictions": "low-budget, vegetarian diet"
       },
       "solution_criteria": [
-        "Emphasizes high-carbohydrate foods throughout the day",
-        "Avoids dairy and high-fiber foods as specified",
-        "Provides structured meal timing for race day preparation"
+        "Provide nutritionally balanced meals under $15 per day",
+        "Include adequate protein for muscle recovery",
+        "Ensure meals are vegetarian-friendly",
+        "Design meals that support athletic performance"
       ],
       "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a marathon runner needing high-carb fuel for race day preparation"
-    },
-    "score": 10,
-    "reasoning": "The solution fully satisfies all mandatory requirements by providing the required caloric total, macronutrient breakdown, and detailed meal specifications. It also meets all secondary criteria by emphasizing high-carb foods (490g carbs), avoiding restricted foods (dairy and high-fiber), and providing appropriate race day meal timing. The plan is practical and well-suited for marathon preparation."
-  },
-  {
-    "output": "Here is a one-day meal plan for an athlete with gluten intolerance and dairy allergies:\n\n**Calorie Target:** Approximately 2,400 calories\n**Macronutrient Breakdown:** Protein (130g), Fat (80g), Carbs (320g)\n\n**Meal Plan:**\n\n* **Breakfast (7:00 AM):** Gluten-free oats (80g dry weight) with sliced banana (120g), blueberries (80g), and almond butter (25g). Unsweetened almond milk (200g).\n  * Protein: 18g, Fat: 20g, Carbs: 75g\n\n* **Mid-Morning Snack (10:00 AM):** Rice cakes (30g) with avocado (60g) and hemp seeds (15g).\n  * Protein: 8g, Fat: 15g, Carbs: 20g\n\n* **Lunch (1:00 PM):** Grilled chicken breast (130g) with quinoa (80g dry weight), roasted sweet potato (150g), and mixed vegetables (100g) drizzled with olive oil (10g).\n  * Protein: 42g, Fat: 12g, Carbs: 85g\n\n* **Pre-Training Snack (3:30 PM):** Banana (130g) with sunflower seed butter (20g).\n  * Protein: 6g, Fat: 12g, Carbs: 35g\n\n* **Post-Training Snack (6:00 PM):** Protein smoothie with dairy-free protein powder (30g), coconut milk (150g), mango (100g), and spinach (50g).\n  * Protein: 28g, Fat: 8g, Carbs: 25g\n\n* **Dinner (8:00 PM):** Baked salmon (140g) with brown rice (70g dry weight) and steamed broccoli (200g) with tahini dressing (20g).\n  * Protein: 38g, Fat: 18g, Carbs: 60g\n\n* **Evening Snack (10:00 PM):** Mixed nuts and seeds (25g) with dried fruit (20g).\n  * Protein: 6g, Fat: 15g, Carbs: 20g\n\nThis meal plan emphasizes naturally gluten-free whole grains, lean proteins, healthy fats, and plenty of fruits and vegetables to support training performance while avoiding gluten and dairy products. The timing ensures adequate fuel before training and proper recovery nutrition afterward.",
-    "test_case": {
-      "prompt_inputs": {
-        "height": "175",
-        "weight": "68",
-        "goal": "maintain performance during training season",
-        "restrictions": "gluten intolerance and dairy allergies"
-      },
-      "solution_criteria": [
-        "All meals and snacks are gluten-free and dairy-free",
-        "Includes appropriate portions for athletic performance",
-        "Covers breakfast, lunch, dinner and snacks"
-      ],
-      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a swimmer with gluten intolerance and dairy allergies"
-    },
-    "score": 9,
-    "reasoning": "The solution fully meets all mandatory requirements by providing daily calories, macronutrient breakdown, and detailed meals with exact portions and timing. It also excellently addresses all secondary criteria with strictly gluten-free and dairy-free options, appropriate athletic portions, and comprehensive meal coverage. The minor weaknesses don't significantly detract from the overall quality."
-  },
-  {
-    "output": "Here is a one-day meal plan for a powerlifter in cutting phase with lactose intolerance and no processed foods:\n\n**Calorie Target:** Approximately 2200 calories\n**Macronutrient Breakdown:** Protein (180g), Fat (75g), Carbs (180g)\n\n**Meal Plan:**\n\n**Pre-Workout (6:30 AM):** Banana (120g) with almond butter (15g).\n* Protein: 4g, Fat: 9g, Carbs: 30g\n\n**Post-Workout Breakfast (8:30 AM):** Scrambled eggs (3 whole eggs, 150g) with spinach (100g) and sweet potato hash (150g cooked weight) prepared with coconut oil (10g).\n* Protein: 20g, Fat: 22g, Carbs: 30g\n\n**Mid-Morning Snack (11:00 AM):** Homemade trail mix with almonds (25g), pumpkin seeds (15g), and dried dates (30g, unsweetened).\n* Protein: 8g, Fat: 15g, Carbs: 25g\n\n**Lunch (1:30 PM):** Grilled chicken breast (150g) with quinoa (80g dry weight) and roasted vegetables - bell peppers (100g), zucchini (100g), and onions (50g) drizzled with olive oil (15g).\n* Protein: 50g, Fat: 18g, Carbs: 65g\n\n**Afternoon Snack (4:30 PM):** Protein smoothie with plant-based protein powder (30g), unsweetened almond milk (300g), frozen berries (100g), and spinach (50g).\n* Protein: 25g, Fat: 3g, Carbs: 15g\n\n**Dinner (7:00 PM):** Baked salmon (140g) with roasted Brussels sprouts (200g) and brown rice (60g dry weight), cooked with coconut oil (8g).\n* Protein: 40g, Fat: 20g, Carbs: 45g\n\n**Evening Snack (9:30 PM):** Turkey breast slices (80g) with cucumber (100g) and tahini (15g).\n* Protein: 25g, Fat: 8g, Carbs: 5g\n\n**Daily Totals:** Protein: 172g, Fat: 95g, Carbs: 215g, Calories: ~2,250\n\nThis meal plan supports your cutting phase while providing adequate protein for strength maintenance. All foods are whole, unprocessed, and lactose-free. The timing supports your training schedule with pre/post-workout nutrition for optimal performance and recovery.",
-    "test_case": {
-      "prompt_inputs": {
-        "height": "175",
-        "weight": "85",
-        "goal": "cutting phase while maintaining strength for powerlifting competition in 8 weeks",
-        "restrictions": "lactose intolerant, no processed foods"
-      },
-      "solution_criteria": [
-        "High protein content (minimum 2g per kg bodyweight)",
-        "Caloric deficit appropriate for cutting phase",
-        "Excludes lactose and processed foods"
-      ],
-      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a powerlifter requiring high-protein intake during cutting phase"
-    },
-    "score": 5,
-    "reasoning": "The solution meets all mandatory requirements but has a significant deficiency in the cutting phase caloric deficit. For an 85kg powerlifter, 2,250 calories is likely at or above maintenance level, which would not support fat loss goals. The high fat percentage also suboptimizes the macro distribution for cutting."
-  },
-  {
-    "output": "Here is a one-day meal plan for an athlete aiming to maintain performance while building lean muscle on a budget:\n\n* **Calorie Target:** Approximately 2,800 calories\n* **Macronutrient Breakdown:** Protein (170g), Fat (85g), Carbs (350g)\n\n**Meal Plan:**\n\n* **Breakfast (7:00 AM):** Scrambled eggs (3 whole eggs, 150g) with oatmeal (80g dry weight), banana (120g), and whole milk (240g).\n  * Protein: 30g, Fat: 20g, Carbs: 85g\n  * **Cost: ~$2.50**\n\n* **Mid-Morning Snack (10:00 AM):** Peanut butter (25g) with whole wheat toast (60g) and glass of milk (240g).\n  * Protein: 18g, Fat: 12g, Carbs: 35g\n  * **Cost: ~$1.25**\n\n* **Lunch (1:00 PM):** Canned tuna (150g) sandwich with whole wheat bread (120g), brown rice (75g dry weight), and mixed frozen vegetables (150g).\n  * Protein: 45g, Fat: 8g, Carbs: 90g\n  * **Cost: ~$3.00**\n\n* **Afternoon Snack (4:00 PM):** Greek yogurt (170g, plain) with rolled oats (30g dry) and honey (15g).\n  * Protein: 18g, Fat: 5g, Carbs: 40g\n  * **Cost: ~$1.50**\n\n* **Dinner (7:00 PM):** Chicken thighs (150g, skinless) with sweet potato (200g) and steamed broccoli (200g), cooked in olive oil (10g).\n  * Protein: 40g, Fat: 25g, Carbs: 65g\n  * **Cost: ~$4.25**\n\n* **Evening Snack (9:00 PM):** Cottage cheese (150g) with whole grain crackers (30g) and apple slices (100g).\n  * Protein: 19g, Fat: 15g, Carbs: 35g\n  * **Cost: ~$2.50**\n\n**Total Daily Cost: ~$15.00**\n\nThis budget-friendly meal plan emphasizes affordable protein sources like eggs, tuna, chicken thighs, and dairy products, paired with nutrient-dense carbohydrates to fuel training and support muscle building goals.",
-    "test_case": {
-      "prompt_inputs": {
-        "height": "193",
-        "weight": "85",
-        "goal": "maintain current performance while building lean muscle",
-        "restrictions": "budget limited to $15 per day, no shellfish allergy"
-      },
-      "solution_criteria": [
-        "Stays within $15 daily budget",
-        "Provides adequate calories and protein for basketball player",
-        "Includes breakfast, lunch, dinner and snacks"
-      ],
-      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a basketball player on a tight budget ($15/day food limit)"
+      "scenario": "Test with a budget-conscious athlete focused on affordable, nutritionally dense meal options"
     },
     "score": 8,
-    "reasoning": "The solution meets all mandatory requirements by providing daily caloric total, macronutrient breakdown, and detailed meals with specific foods, portions, and timing. It also satisfies the secondary criteria by staying within budget, providing adequate nutrition for a basketball player, and including all required meal types. Despite minor calculation inconsistencies in the macronutrient totals, the core requirements are fulfilled."
+    "reasoning": "The solution thoroughly addresses the mandatory requirements by providing a complete daily meal plan with exact caloric intake (2400 calories), macronutrient breakdown, specific foods, portions, and meal timing. It successfully meets the vegetarian criteria and supports athletic performance through balanced nutrition. While the plan appears budget-conscious, there's no explicit cost verification. Minor improvements could enhance the plan's comprehensiveness."
   },
   {
-    "output": "Here is a one-day meal plan for a vegetarian athlete preparing for competition day:\n\n**Calorie Target:** 2800 calories\n**Macronutrient Breakdown:** Protein (140g), Fat (93g), Carbs (420g)\n\n**Meal Plan:**\n\n* **Pre-Workout Breakfast (6:30 AM):** Overnight oats with rolled oats (80g dry weight), banana (120g), peanut butter (25g), chia seeds (15g), and almond milk (250g).\n  * Protein: 18g, Fat: 22g, Carbs: 85g\n\n* **Post-Workout Snack (9:00 AM):** Protein smoothie with plant protein powder (30g), frozen berries (100g), spinach (50g), and coconut water (300g).\n  * Protein: 25g, Fat: 2g, Carbs: 25g\n\n* **Lunch (12:30 PM):** Quinoa bowl with cooked quinoa (100g dry weight), black beans (150g cooked), avocado (80g), cherry tomatoes (100g), bell peppers (80g), and tahini dressing (20g).\n  * Protein: 28g, Fat: 25g, Carbs: 95g\n\n* **Pre-Competition Snack (3:30 PM):** Whole grain toast (60g) with almond butter (20g) and sliced banana (100g). Sports drink (250g).\n  * Protein: 12g, Fat: 16g, Carbs: 65g\n\n* **Post-Competition Dinner (7:00 PM):** Lentil pasta (100g dry weight) with marinara sauce (150g), nutritional yeast (10g), steamed broccoli (150g), and a side of mixed nuts (25g).\n  * Protein: 32g, Fat: 18g, Carbs: 85g\n\n* **Evening Recovery Snack (9:30 PM):** Greek yogurt (200g) with granola (40g), honey (15g), and mixed berries (80g).\n  * Protein: 25g, Fat: 10g, Carbs: 65g\n\nThis vegetarian meal plan provides sustained energy through complex carbohydrates, adequate protein from diverse plant sources, and healthy fats to support optimal competition day performance and recovery.",
-    "test_case": {
-      "prompt_inputs": {
-        "height": "165",
-        "weight": "58",
-        "goal": "2800 calories for competition day performance",
-        "restrictions": "vegetarian"
-      },
-      "solution_criteria": [
-        "Provides a complete 1-day meal plan",
-        "Meets 2800 calorie target",
-        "Contains only vegetarian foods"
-      ],
-      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a gymnast who is vegetarian and needs 2800 calories for competition day"
-    },
-    "score": 5,
-    "reasoning": "The solution meets all mandatory requirements by providing a complete daily meal plan with exact foods, portions, timing, caloric total, and macronutrient breakdown. All foods are vegetarian. However, when spot-checking the nutritional calculations, the actual calories appear to be significantly below the stated 2800 target, creating a substantial gap between claimed and actual nutritional content."
-  },
-  {
-    "output": "Here is a one-day meal plan for an athlete following a 16:8 intermittent fasting schedule to maintain endurance performance:\n\n**Calorie Target:** Approximately 2,400 calories\n**Macronutrient Breakdown:** Protein (130g), Fat (80g), Carbs (300g)\n\n**Meal Plan (Eating Window: 12:00 PM - 8:00 PM):**\n\n**First Meal (12:00 PM):** Post-workout recovery meal with overnight oats (60g dry oats) topped with banana (120g), Greek yogurt (150g), and mixed berries (80g). Almonds (20g).\n* Protein: 25g, Fat: 18g, Carbs: 85g\n\n**Afternoon Snack (3:00 PM):** Whole grain toast (40g) with avocado (80g) and hard-boiled eggs (2 eggs, 100g total).\n* Protein: 18g, Fat: 20g, Carbs: 25g\n\n**Pre-Training Snack (5:30 PM):** Dates (40g) with natural peanut butter (20g).\n* Protein: 6g, Fat: 12g, Carbs: 35g\n\n**Dinner (7:30 PM):** Grilled chicken breast (150g) with sweet potato (200g baked) and steamed vegetables - broccoli and carrots (150g total). Olive oil for cooking (10g).\n* Protein: 45g, Fat: 15g, Carbs: 90g\n\n**Final Meal (7:50 PM):** Protein smoothie with whey protein powder (30g), spinach (50g), mango (100g), and coconut milk (200ml).\n* Protein: 36g, Fat: 15g, Carbs: 25g\n\n**Hydration:** Water throughout the day, especially during the 16-hour fasting window. Electrolyte drink during training if needed.\n\nThis meal plan maximizes nutrient timing within the 8-hour eating window, emphasizing carbohydrate intake around training sessions to fuel endurance performance while maintaining adequate protein for recovery.",
+    "output": "Here's a one-day meal plan for the vegan athlete:\n\n**Calorie Target:** Approximately 2800 calories\n**Macronutrient Breakdown:** Protein (160g), Fat (85g), Carbs (380g)\n\n**Meal Plan:**\n\n**Breakfast (7:00 AM):** Tofu Scramble with Quinoa\n- Extra firm tofu (200g)\n- Quinoa (80g dry weight)\n- Spinach (100g)\n- Bell peppers (50g)\n- Nutritional yeast (15g)\n- Chia seeds (10g)\n    - Protein: 45g, Fat: 20g, Carbs: 70g\n\n**Mid-Morning Protein Shake (10:00 AM)**\n- Vegan protein powder (40g)\n- Banana (120g)\n- Almond milk (250ml)\n- Almond butter (20g)\n    - Protein: 35g, Fat: 15g, Carbs: 40g\n\n**Lunch (1:00 PM):** Lentil and Tempeh Power Bowl\n- Lentils (150g cooked)\n- Tempeh (150g)\n- Mixed vegetables (200g)\n- Avocado (80g)\n- Olive oil dressing (15g)\n    - Protein: 40g, Fat: 25g, Carbs: 90g\n\n**Afternoon Snack (4:00 PM):** Hemp Seed Energy Balls\n- Hemp seeds (30g)\n- Dates (50g)\n- Peanut butter (25g)\n- Rolled oats (40g)\n    - Protein: 15g, Fat: 15g, Carbs: 50g\n\n**Dinner (7:00 PM):** Seitan and Vegetable Stir-Fry\n- Seitan (200g)\n- Brown rice (100g dry weight)\n- Broccoli (150g)\n- Carrots (100g)\n- Edamame (100g)\n- Coconut oil for cooking (10g)\n    - Protein: 50g, Fat: 20g, Carbs: 90g\n\n**Evening Protein Snack (9:00 PM)**\n- Roasted chickpeas (50g)\n- Pumpkin seeds (20g)\n    - Protein: 15g, Fat: 10g, Carbs: 40g\n\n**Hydration Notes:**\n- Aim for 3-4 liters of water throughout the day\n- Consider electrolyte supplementation during intense training\n\n**Supplement Recommendations:**\n- Vitamin B12\n- Vegan Omega-3\n- Vitamin D\n- Iron supplement (if needed)\n\n**Budget-Friendly Tips:**\n- Buy dried lentils and beans in bulk\n- Purchase seasonal vegetables\n- Look for sales on plant-based proteins\n- Consider frozen vegetables\n\nThis meal plan is specifically designed to:\n- Meet high protein requirements for a vegan athlete\n- Provide balanced, nutrient-dense meals\n- Support muscle maintenance and performance\n- Offer variety in protein sources\n- Remain budget-conscious\n\nAdjust portion sizes based on individual metabolism and training intensity.",
     "test_case": {
       "prompt_inputs": {
         "height": "175",
-        "weight": "68",
-        "goal": "maintain endurance performance during training season",
-        "restrictions": "intermittent fasting 16:8 schedule (eating window 12pm-8pm)"
+        "weight": "82",
+        "goal": "muscle maintenance and performance optimization during training",
+        "restrictions": "vegan diet, high protein requirement"
       },
       "solution_criteria": [
-        "Meals scheduled within 12pm-8pm eating window",
-        "Includes carbohydrates for cycling energy needs",
-        "Provides adequate protein for recovery"
+        "Provides minimum 120g plant-based protein daily",
+        "Balances macronutrients for powerlifting performance",
+        "Includes diverse protein sources",
+        "Supports recovery and energy needs"
       ],
       "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a cyclist doing intermittent fasting (16:8 schedule)"
+      "scenario": "Test with a vegan powerlifter needing plant-based protein sources and performance optimization"
+    },
+    "score": 8,
+    "reasoning": "The solution meets all mandatory requirements with a well-structured vegan meal plan. It provides a clear caloric target, macronutrient breakdown, and detailed meals with precise timing and portions. While the plan addresses the core requirements, there are nuanced areas for potential optimization in protein quantity and recovery nutrition."
+  },
+  {
+    "output": "Based on the athlete's specifications for an ultra-marathon performance nutrition plan with gluten-free and high protein requirements, here's a comprehensive meal plan:\n\n**Calorie Target:** Approximately 3200 calories\n**Macronutrient Breakdown:** Protein (180g), Fat (100g), Carbs (420g)\n\n**Meal Plan:**\n\n*   **Breakfast (6:30 AM):** Quinoa porridge (100g dry) with chia seeds (15g), mixed berries (120g), and almond butter (25g). \n    *   Protein: 25g, Fat: 22g, Carbs: 75g\n    *   Calories: 600\n\n*   **Mid-Morning Pre-Training Snack (9:00 AM):** Rice cake (50g) with grass-fed beef jerky (30g) and banana (150g).\n    *   Protein: 30g, Fat: 10g, Carbs: 50g\n    *   Calories: 400\n\n*   **Post-Training Lunch (12:30 PM):** Grilled wild salmon (150g) with sweet potato (200g), roasted vegetables (mixed - 250g), olive oil dressing (15g).\n    *   Protein: 45g, Fat: 25g, Carbs: 90g\n    *   Calories: 700\n\n*   **Afternoon Recovery Snack (3:30 PM):** Protein smoothie with gluten-free protein powder (40g), spinach (50g), almond milk (250ml), mixed frozen berries (100g).\n    *   Protein: 35g, Fat: 12g, Carbs: 40g\n    *   Calories: 350\n\n*   **Dinner (7:00 PM):** Grass-fed beef steak (160g), cauliflower rice (200g), roasted Brussels sprouts (150g), avocado (50g).\n    *   Protein: 40g, Fat: 25g, Carbs: 45g\n    *   Calories: 600\n\n*   **Evening Recovery Snack (9:30 PM):** Greek yogurt (170g), almonds (25g), honey (15g).\n    *   Protein: 20g, Fat: 15g, Carbs: 30g\n    *   Calories: 300\n\n**Key Nutritional Considerations:**\n- Entirely gluten-free meal plan\n- High protein content for muscle recovery\n- Complex carbohydrates for sustained energy\n- Balanced fat intake from healthy sources\n- Nutrient-dense foods supporting ultra-marathon performance\n\n**Hydration:** Recommended 3-4 liters of water throughout the day, with electrolyte supplementation during training.\n\n**Performance Notes:**\n- Meal timing supports training energy needs\n- Protein distributed across meals for optimal muscle protein synthesis\n- Carbohydrates strategically placed around training sessions\n\nThis meal plan is specifically designed for an ultra-marathon athlete with gluten-free requirements, focusing on high-quality proteins, complex carbohydrates, and nutrient-dense foods to support extreme endurance performance.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "185",
+        "weight": "78",
+        "goal": "Ultra-marathon performance nutrition",
+        "restrictions": "Gluten-free, high protein requirement"
+      },
+      "solution_criteria": [
+        "Total daily calories must exceed 4000 kcal",
+        "Macronutrient distribution should prioritize complex carbohydrates and lean proteins",
+        "Meal plan must accommodate gluten-free dietary restriction",
+        "Include strategic nutrition timing for endurance performance"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test with an ultra-marathon runner requiring extremely high calorie intake and precise macro-nutrient balance"
+    },
+    "score": 3,
+    "reasoning": "While the meal plan demonstrates thoughtful nutrition planning with gluten-free considerations, it critically fails to meet the mandatory caloric requirement of 4000 kcal. The total daily intake is approximately 2950 kcal, which is insufficient for an ultra-marathon athlete's energy needs. The macronutrient distribution and meal timing show promise, but the low caloric content represents a fundamental nutritional deficiency for high-performance endurance training."
+  },
+  {
+    "output": "Based on the provided athlete information and guidelines, here's a comprehensive meal plan:\n\n**Calorie Target:** Approximately 2700 calories\n**Macronutrient Breakdown:** Protein (150g), Fat (80g), Carbs (360g)\n\n**Meal Plan:**\n\n*   **Breakfast (7:00 AM):** Overnight oats with plant-based protein\n    - Rolled oats (100g)\n    - Vegan protein powder (30g)\n    - Almond milk (250ml)\n    - Chia seeds (15g)\n    - Mixed berries (100g)\n    *   Protein: 35g, Fat: 18g, Carbs: 75g\n\n*   **Mid-Morning Snack (10:00 AM):** Smoothie and nuts\n    - Plant-based protein shake (250ml)\n    - Almonds (25g)\n    - Banana (120g)\n    *   Protein: 25g, Fat: 15g, Carbs: 40g\n\n*   **Lunch (1:00 PM):** Chicken and quinoa bowl\n    - Grilled chicken breast (150g)\n    - Quinoa (100g cooked)\n    - Mixed vegetables (200g)\n    - Olive oil dressing (15g)\n    *   Protein: 40g, Fat: 20g, Carbs: 85g\n\n*   **Post-Workout Snack (4:00 PM):** Protein energy balls\n    - Vegan protein balls (2 \u00d7 50g)\n    - Apple (150g)\n    *   Protein: 20g, Fat: 12g, Carbs: 45g\n\n*   **Dinner (7:00 PM):** Salmon with sweet potato\n    - Baked salmon (150g)\n    - Sweet potato (200g)\n    - Steamed green vegetables (150g)\n    - Coconut oil (10g)\n    *   Protein: 35g, Fat: 25g, Carbs: 80g\n\n*   **Evening Snack (9:00 PM):** Recovery protein shake\n    - Vegan protein shake (30g)\n    - Almond butter (15g)\n    *   Protein: 25g, Fat: 10g, Carbs: 35g\n\n**Key Considerations:**\n- Fully dairy-free\n- Minimal cooking time (meal prep strategies used)\n- High protein for muscle maintenance\n- Balanced macronutrients\n- Budget-friendly whole food options\n\n**Meal Prep Tips:**\n- Prepare overnight oats night before\n- Pre-cook chicken and quinoa in bulk\n- Make protein energy balls in advance\n- Use frozen vegetables to save time\n\nThis meal plan meets the athlete's dietary restrictions while providing optimal nutrition for muscle maintenance during training.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180",
+        "weight": "75",
+        "goal": "muscle maintenance during training",
+        "restrictions": "dairy-free, minimal cooking time"
+      },
+      "solution_criteria": [
+        "Provides 3 meals covering nutritional needs",
+        "Uses minimal kitchen equipment",
+        "Meets athlete's dietary restrictions",
+        "Supports muscle maintenance goal"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test with a minimalist meal plan requiring minimal cooking time and using limited kitchen equipment"
     },
     "score": 9,
-    "reasoning": "The solution meets all mandatory requirements by providing daily caloric total, macronutrient breakdown, and meals with exact foods, portions, and timing. It also satisfies all secondary criteria with proper eating window adherence, adequate carbohydrates for endurance, and sufficient protein for recovery. The meal timing and nutrient distribution are well-planned for an endurance athlete following intermittent fasting."
+    "reasoning": "The solution fully satisfies all mandatory requirements by providing a detailed daily meal plan with exact caloric intake (2700 calories), precise macronutrient breakdown, specific meals with portions and timing, and addressing the athlete's dietary restrictions. The plan supports muscle maintenance through high protein content and balanced nutrition. While comprehensive, the complexity might be challenging for some athletes."
+  },
+  {
+    "output": "Based on the provided athlete information and guidelines, here's a comprehensive meal plan:\n\n**Calorie Target:** Approximately 2800 calories\n**Macronutrient Breakdown:** Protein (160g), Fat (90g), Carbs (360g)\n\n**Meal Plan:**\n\n*   **Breakfast (7:00 AM):** Gluten-free oats (100g) with mixed berries (120g), chia seeds (15g), and almond milk (240ml). Topped with sliced almonds (20g).\n    *   Protein: 20g, Fat: 22g, Carbs: 75g\n    *   Calories: 550\n\n*   **Mid-Morning Snack (10:00 AM):** Gluten-free rice cake (30g) with sunflower seed butter (30g), and a banana (120g).\n    *   Protein: 10g, Fat: 15g, Carbs: 40g\n    *   Calories: 350\n\n*   **Lunch (1:00 PM):** Grilled chicken breast (150g) with quinoa (100g dry weight), roasted sweet potato (150g), mixed green salad (200g) with olive oil and lemon dressing (30g).\n    *   Protein: 45g, Fat: 20g, Carbs: 90g\n    *   Calories: 700\n\n*   **Post-Workout Snack (4:00 PM):** Gluten-free protein shake with pea protein (30g), coconut milk (240ml), and frozen mixed berries (100g).\n    *   Protein: 30g, Fat: 12g, Carbs: 35g\n    *   Calories: 350\n\n*   **Dinner (7:00 PM):** Baked salmon (180g) with roasted vegetables (zucchini 150g, bell peppers 100g), cauliflower rice (150g), and avocado (50g).\n    *   Protein: 40g, Fat: 25g, Carbs: 50g\n    *   Calories: 600\n\n*   **Evening Snack (9:00 PM):** Mixed nuts (30g) with gluten-free dark chocolate (20g).\n    *   Protein: 15g, Fat: 18g, Carbs: 20g\n    *   Calories: 250\n\n**Nutritional Considerations:**\n- Entirely gluten-free and dairy-free\n- High in lean proteins for muscle maintenance\n- Balanced macronutrients to support training\n- Budget-friendly whole food options\n- Includes anti-inflammatory foods\n- Provides sustained energy throughout the day\n\n**Hydration Recommendation:**\n- Drink approximately 3-4 liters of water throughout the day\n- Add electrolyte supplements if intense training is planned\n\nThis meal plan is designed to support the athlete's muscle maintenance goal while adhering to gluten-free and dairy-free dietary restrictions.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "82",
+        "goal": "muscle maintenance during training",
+        "restrictions": "gluten-free and dairy-free diet"
+      },
+      "solution_criteria": [
+        "Provides full day's nutrition within dietary restrictions",
+        "Meets estimated caloric needs for athlete's body composition",
+        "Includes balanced macronutrient distribution",
+        "Supports training and recovery goals"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test with an athlete managing food allergies or significant dietary restrictions (gluten-free, dairy-free, etc.)"
+    },
+    "score": 9,
+    "reasoning": "The solution meets all mandatory requirements with a detailed, nutritionally balanced meal plan. It provides exact caloric intake (2800), precise macronutrient targets, specific meals with portions and timing, and fully respects dietary restrictions. Minor deviations exist but do not substantially compromise the overall nutritional strategy."
+  },
+  {
+    "output": "Based on the provided athlete information, here's a tailored meal plan:\n\n**Calorie Target:** Approximately 3200 calories (for high-altitude endurance training)\n**Macronutrient Breakdown:** Protein (180g), Fat (100g), Carbs (420g)\n\n**Meal Plan:**\n\n*   **Breakfast (6:30 AM):** Quinoa porridge (100g dry quinoa) with chia seeds (15g), mixed berries (120g), and almond butter (25g). Soy milk (250ml).\n    *   Calories: 650\n    *   Protein: 25g, Fat: 22g, Carbs: 90g\n\n*   **Mid-Morning Pre-Training Snack (9:00 AM):** Banana (150g) with hemp protein smoothie (30g protein powder, 250ml coconut water).\n    *   Calories: 400\n    *   Protein: 35g, Fat: 8g, Carbs: 50g\n\n*   **Post-Training Lunch (12:30 PM):** Tofu stir-fry (200g extra-firm tofu) with mixed vegetables (200g), brown rice (100g dry weight), and sesame seeds (10g).\n    *   Calories: 700\n    *   Protein: 40g, Fat: 25g, Carbs: 100g\n\n*   **Afternoon Snack (3:30 PM):** Roasted chickpea salad (150g chickpeas) with spinach (100g), pumpkin seeds (20g), and olive oil dressing (15ml).\n    *   Calories: 450\n    *   Protein: 25g, Fat: 20g, Carbs: 50g\n\n*   **Dinner (7:00 PM):** Lentil and vegetable pasta (150g red lentil pasta) with marinara sauce (100g), roasted vegetables (250g), and nutritional yeast (15g).\n    *   Calories: 650\n    *   Protein: 40g, Fat: 15g, Carbs: 110g\n\n*   **Evening Recovery Snack (9:30 PM):** Plant-based protein shake (35g pea protein) with banana (100g) and almond milk (250ml).\n    *   Calories: 350\n    *   Protein: 35g, Fat: 10g, Carbs: 40g\n\n**Key Considerations:**\n- Fully vegetarian meal plan\n- Lactose-free options\n- High protein for muscle recovery\n- Complex carbohydrates for sustained energy\n- Nutrient-dense foods for high-altitude performance\n\n**Hydration Note:** Aim for 3-4 liters of water throughout the day, especially important for high-altitude training.\n\nThis meal plan is designed to support the athlete's vegetarian diet, provide adequate nutrition for high-altitude endurance training, and avoid lactose-containing products while maintaining a balanced macronutrient profile.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "182",
+        "weight": "78",
+        "goal": "High-altitude endurance training performance optimization",
+        "restrictions": "Vegetarian, lactose intolerant"
+      },
+      "solution_criteria": [
+        "Provides adequate caloric intake for high-altitude training",
+        "Accommodates vegetarian and lactose-free dietary requirements",
+        "Includes appropriate hydration and electrolyte considerations",
+        "Balances macronutrients for sustained energy during extreme climate training"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test with an athlete training in an extreme climate (high altitude or tropical environment) with unique nutritional considerations"
+    },
+    "score": 8,
+    "reasoning": "The solution meets all mandatory requirements with a detailed, scientifically-structured meal plan. It provides exact caloric intake (3200 calories), precise macronutrient breakdown, and meal-by-meal specifications. The plan successfully addresses vegetarian and lactose-free constraints while targeting high-altitude endurance training needs. Minor improvements could enhance electrolyte and micronutrient considerations specific to extreme altitude performance."
   }
 ]
