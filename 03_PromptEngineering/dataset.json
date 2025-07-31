@@ -1,98 +1,98 @@
 [
   {
     "prompt_inputs": {
+      "height": "190",
+      "weight": "88",
+      "goal": "Olympic swimming performance optimization",
+      "restrictions": "No dairy, high protein requirement"
+    },
+    "solution_criteria": [
+      "Meal plan must exceed 4000 calories",
+      "Protein intake minimum 2.2g per kg of body weight",
+      "Balanced macronutrient distribution for athletic performance",
+      "Accommodates specified dietary restrictions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test an Olympic swimmer's high-calorie, protein-dense nutritional requirements with precise macro calculations"
+  },
+  {
+    "prompt_inputs": {
       "height": "175",
-      "weight": "72",
-      "goal": "muscle maintenance during exam period",
-      "restrictions": "limited budget, no dairy, minimal cooking skills"
+      "weight": "68",
+      "goal": "Optimize endurance cycling performance on plant-based diet",
+      "restrictions": "Vegan, no processed foods"
     },
     "solution_criteria": [
-      "Meal plan meets daily caloric needs",
-      "Requires minimal cooking equipment and preparation time",
-      "Accommodates dairy-free dietary restriction",
-      "Keeps total daily food cost under $15"
+      "Provide complete daily caloric intake matching cyclist's energy requirements",
+      "Ensure adequate protein sources from plant-based options",
+      "Balance macronutrients for sustained cycling performance",
+      "Include strategic meal timing for pre/post training nutrition"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Budget-constrained student athlete with limited cooking skills and equipment"
-  },
-  {
-    "prompt_inputs": {
-      "height": "185",
-      "weight": "82",
-      "goal": "Ultra-marathon performance optimization and rapid recovery",
-      "restrictions": "Gluten-free, high protein requirement, no dairy"
-    },
-    "solution_criteria": [
-      "Provides minimum 4000 calories with balanced macronutrient distribution",
-      "Includes specific pre and post-workout nutrition recommendations",
-      "Accommodates specified dietary restrictions",
-      "Supports high-intensity endurance training energy requirements"
-    ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Extreme endurance athlete with high-intensity training and strict dietary needs"
-  },
-  {
-    "prompt_inputs": {
-      "height": "178",
-      "weight": "72",
-      "goal": "Optimal performance and muscle recovery for Ironman triathlon training",
-      "restrictions": "Vegan diet, no animal products, focus on complete plant proteins"
-    },
-    "solution_criteria": [
-      "Provide complete daily protein intake from plant sources",
-      "Include sufficient caloric intake for high-intensity endurance training",
-      "Balance macronutrients for muscle recovery and energy",
-      "Ensure nutritional diversity within vegan constraints"
-    ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Vegan professional triathlete requiring complete plant-based protein sources"
-  },
-  {
-    "prompt_inputs": {
-      "height": "185",
-      "weight": "110",
-      "goal": "muscle gain and maximum performance for powerlifting",
-      "restrictions": "no shellfish, lactose intolerant"
-    },
-    "solution_criteria": [
-      "Meal plan must exceed 3500 calories",
-      "Protein intake should be minimum 2.2g per kg of body weight",
-      "Include balanced macronutrient distribution with high protein content",
-      "Accommodate specified dietary restrictions"
-    ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Professional powerlifter seeking maximum muscle gain and caloric density"
+    "scenario": "Test a vegan endurance cyclist's plant-based meal plan with complete nutritional balance"
   },
   {
     "prompt_inputs": {
       "height": "180",
       "weight": "85",
-      "goal": "Muscle recovery and rehabilitation after knee surgery",
-      "restrictions": "Low-inflammation diet, no red meat, limited dairy"
+      "goal": "Muscle maintenance and high-intensity performance",
+      "restrictions": "Gluten-free, no dairy"
     },
     "solution_criteria": [
-      "Provide balanced macronutrient distribution supporting tissue repair",
-      "Include anti-inflammatory foods to support healing process",
-      "Ensure adequate protein intake for muscle maintenance",
-      "Match caloric needs for recovery without excess weight gain"
+      "Provides 3-4 balanced meals covering nutritional needs",
+      "Supports CrossFit training with adequate protein intake",
+      "Meets gluten-free and dairy-free dietary restrictions",
+      "Demonstrates meal prep efficiency for time-constrained athlete"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Recovering from injury athlete with rehabilitation-focused nutritional requirements"
+    "scenario": "Test a minimalist meal plan for a CrossFit athlete with limited time and cooking skills"
+  },
+  {
+    "prompt_inputs": {
+      "height": "185",
+      "weight": "110",
+      "goal": "muscle gain and weight recovery for powerlifting competition",
+      "restrictions": "no dairy, high protein requirement"
+    },
+    "solution_criteria": [
+      "Provides 4000-4500 daily calories",
+      "Includes minimum 250g protein per day",
+      "Supports muscle recovery and weight gain",
+      "Accommodates dairy-free dietary restriction"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test a meal plan for a professional powerlifter focusing on weight gain and muscle recovery"
   },
   {
     "prompt_inputs": {
       "height": "180",
-      "weight": "72",
-      "goal": "Optimize nutrition for high-altitude ultra-marathon training with minimal food supply",
-      "restrictions": "High caloric needs, limited food storage, must be lightweight and nutrient-dense"
+      "weight": "75",
+      "goal": "muscle maintenance and recovery during training",
+      "restrictions": "low budget, no dairy, no seafood"
     },
     "solution_criteria": [
-      "Provide a complete 1-day meal plan with minimum 3500 calories",
-      "Ensure nutritional balance for endurance performance",
-      "Account for high-altitude metabolic requirements",
-      "Maximize nutrient density with minimal food weight"
+      "Provide meals under $15 per day",
+      "Include 100-120g protein daily",
+      "Balance macronutrients for athletic performance",
+      "Accommodate specified dietary restrictions"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Ultra-marathon runner training in remote/high altitude environment with limited food access"
+    "scenario": "Test a budget-conscious athlete's meal plan emphasizing cost-effective, nutrient-rich foods"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "75",
+      "goal": "Optimize performance for Olympic-distance triathlon training",
+      "restrictions": "Gluten-free, lactose-intolerant"
+    },
+    "solution_criteria": [
+      "Provide balanced macronutrient intake for endurance athlete",
+      "Accommodate specified dietary restrictions",
+      "Include adequate protein and complex carbohydrates",
+      "Support high-energy training requirements"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test a specialized meal plan for a triathlete with dietary restrictions (e.g., gluten-free, lactose-intolerant)"
   }
 ]
