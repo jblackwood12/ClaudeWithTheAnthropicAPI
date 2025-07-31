@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function that takes an AWS S3 bucket ARN as input and extracts just the bucket name from it. The function should handle ARNs in the format 'arn:aws:s3:::bucket-name' and return only the bucket name portion."
+    "task": "Create a JSON policy document that allows read-only access to all objects in a specific S3 bucket named 'my-data-bucket'",
+    "format": "json"
   },
   {
-    "task": "Create a JSON object that defines an AWS IAM policy allowing read-only access to a specific S3 bucket named 'my-app-logs'. The policy should include the necessary statements to list bucket contents and get objects."
+    "task": "Write a Python function that takes an S3 object key and returns the file extension (e.g., 'logs/2023/data.csv' should return 'csv')",
+    "format": "python"
   },
   {
-    "task": "Write a regex pattern that validates AWS EC2 instance IDs. The pattern should match instance IDs that start with 'i-' followed by either 8 hexadecimal characters (old format) or 17 hexadecimal characters (new format)."
+    "task": "Create a regex pattern that matches valid AWS S3 bucket names (3-63 characters, lowercase letters, numbers, hyphens, no consecutive hyphens, no leading/trailing hyphens)",
+    "format": "regex"
   }
 ]
