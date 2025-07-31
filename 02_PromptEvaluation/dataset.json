@@ -1,14 +1,17 @@
 [
   {
-    "task": "Create a JSON policy document that allows read-only access to all objects in a specific S3 bucket named 'my-data-bucket'",
-    "format": "json"
+    "task": "Create a JSON policy document that allows an IAM user to read objects from a specific S3 bucket named 'my-app-logs' and list the bucket contents",
+    "format": "json",
+    "solution_criteria": "Must include correct Version, Statement with Effect 'Allow', Principal or be assumable, Action for s3:GetObject and s3:ListBucket, Resource ARNs for both bucket and objects, proper JSON syntax"
   },
   {
-    "task": "Write a Python function that takes an S3 object key and returns the file extension (e.g., 'logs/2023/data.csv' should return 'csv')",
-    "format": "python"
+    "task": "Write a Python function that takes an AWS resource ARN as input and extracts the AWS account ID from it",
+    "format": "python",
+    "solution_criteria": "Function correctly parses ARN format, extracts account ID from position after 'arn:partition:service:region:', handles different ARN formats, returns account ID as string, includes basic error handling for invalid ARNs"
   },
   {
-    "task": "Create a regex pattern that matches valid AWS S3 bucket names (3-63 characters, lowercase letters, numbers, hyphens, no consecutive hyphens, no leading/trailing hyphens)",
-    "format": "regex"
+    "task": "Create a regex pattern that validates AWS S3 bucket names according to AWS naming rules",
+    "format": "regex",
+    "solution_criteria": "Pattern matches bucket names 3-63 characters long, allows lowercase letters, numbers, dots, and hyphens, doesn't allow consecutive dots, doesn't start/end with dots or hyphens, doesn't allow uppercase letters or underscores"
   }
 ]
