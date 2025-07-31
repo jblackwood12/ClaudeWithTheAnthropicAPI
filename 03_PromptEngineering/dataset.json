@@ -2,16 +2,91 @@
   {
     "prompt_inputs": {
       "height": "175",
-      "weight": "65",
-      "goal": "marathon race preparation - carb loading day before race",
-      "restrictions": "nut allergy, dairy-free"
+      "weight": "68",
+      "goal": "Marathon race day preparation - need high-carb fuel for optimal performance",
+      "restrictions": "No dairy products, avoid high-fiber foods on race day"
     },
     "solution_criteria": [
-      "High-carbohydrate meals throughout the day",
-      "All foods are nut-free and dairy-free",
+      "Emphasizes high-carbohydrate foods throughout the day",
+      "Avoids dairy and high-fiber foods as specified",
+      "Provides structured meal timing for race day preparation"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a marathon runner needing high-carb fuel for race day preparation"
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "85",
+      "goal": "cutting phase while maintaining strength for powerlifting competition in 8 weeks",
+      "restrictions": "lactose intolerant, no processed foods"
+    },
+    "solution_criteria": [
+      "High protein content (minimum 2g per kg bodyweight)",
+      "Caloric deficit appropriate for cutting phase",
+      "Excludes lactose and processed foods"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a powerlifter requiring high-protein intake during cutting phase"
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "68",
+      "goal": "maintain performance during training season",
+      "restrictions": "gluten intolerance and dairy allergies"
+    },
+    "solution_criteria": [
+      "All meals and snacks are gluten-free and dairy-free",
+      "Includes appropriate portions for athletic performance",
+      "Covers breakfast, lunch, dinner and snacks"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a swimmer with gluten intolerance and dairy allergies"
+  },
+  {
+    "prompt_inputs": {
+      "height": "193",
+      "weight": "85",
+      "goal": "maintain current performance while building lean muscle",
+      "restrictions": "budget limited to $15 per day, no shellfish allergy"
+    },
+    "solution_criteria": [
+      "Stays within $15 daily budget",
+      "Provides adequate calories and protein for basketball player",
       "Includes breakfast, lunch, dinner and snacks"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a marathon runner who has a nut allergy and needs high-carb, dairy-free options for pre-race preparation"
+    "scenario": "Testing with a basketball player on a tight budget ($15/day food limit)"
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "68",
+      "goal": "maintain endurance performance during training season",
+      "restrictions": "intermittent fasting 16:8 schedule (eating window 12pm-8pm)"
+    },
+    "solution_criteria": [
+      "Meals scheduled within 12pm-8pm eating window",
+      "Includes carbohydrates for cycling energy needs",
+      "Provides adequate protein for recovery"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a cyclist doing intermittent fasting (16:8 schedule)"
+  },
+  {
+    "prompt_inputs": {
+      "height": "165",
+      "weight": "58",
+      "goal": "2800 calories for competition day performance",
+      "restrictions": "vegetarian"
+    },
+    "solution_criteria": [
+      "Provides a complete 1-day meal plan",
+      "Meets 2800 calorie target",
+      "Contains only vegetarian foods"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a gymnast who is vegetarian and needs 2800 calories for competition day"
   }
 ]
