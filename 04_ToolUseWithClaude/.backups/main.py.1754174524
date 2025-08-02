@@ -1,0 +1,3 @@
+def greeting():
+    test_val = 123
+    return "This is all the function does"
